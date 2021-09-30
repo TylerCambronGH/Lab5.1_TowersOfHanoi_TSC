@@ -11,7 +11,7 @@ public class SolveTowers
      */
     public static void main(String[] args)
     {
-        TowersOfHanoi towers = new TowersOfHanoi(11);
+        TowersOfHanoi towers = new TowersOfHanoi(4);
         towers.displayTowers();
         towers.solve();
         System.out.println(towers.getTotalMoves() + " moves to finish.");
